@@ -1,3 +1,8 @@
+# Descripción
+
+Esta es una formación de react en la que la aplicación realiza una consulta a una api de [ejemplo](https://jsonplaceholder.typicode.com/users) y trata 
+los datos para mostrarlos en una tabla.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
