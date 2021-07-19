@@ -1,2 +1,2 @@
 # Formacion
-Formación realizada durante las prácticas
+Formación realizada durante las prácticas de empresa en Axesor.
