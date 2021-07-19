@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:TodoApi.Controllers.EmpresaController.Get">
+             <summary>
+             Muestra una lista con todas las empresas
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/empresa
+                 
+             </remarks>
+             <returns>A newly created TodoItem</returns>
+             <response code="200">Devuelve los datos de todas las empresas</response>
+             <response code="404">No hay empresas registradas</response>  
+        </member>
+        <member name="M:TodoApi.Controllers.EmpresaController.Get(System.String)">
+             <summary>
+             Muestra la empresa con el indentificador CIF indicado
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/empresa/<paramref name="Cif"/>
+                 {
+                    "CIF": A46103834,
+                 }
+            
+             </remarks>
+             <param name="Cif"></param>
+             <returns>A newly created TodoItem</returns>
+             <response code="200">Devuelve los datos de la empresa</response>
+             <response code="404">No existe una empresa registrada con ese CIF</response>   
+        </member>
+    </members>
+</doc>
