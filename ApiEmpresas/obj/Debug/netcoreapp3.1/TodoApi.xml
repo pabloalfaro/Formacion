@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:TodoApi.Controllers.EmpresaController.Get">
+             <summary>
+             Muestra una lista con todas las empresas
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/empresa
+                 
+             </remarks>
+             <returns>A newly created TodoItem</returns>
+             <response code="200">Devuelve los datos de todas las empresas</response>
+             <response code="404">No hay empresas registradas</response>  
+        </member>
+        <member name="M:TodoApi.Controllers.EmpresaController.Get(System.String)">
+             <summary>
+             Muestra la empresa con el indentificador CIF indicado
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/empresa/<paramref name="Cif"/>
+                 {
+                    "CIF": A46103834,
+                 }
+            
+             </remarks>
+             <param name="Cif"></param>
+             <returns>A newly created TodoItem</returns>
+             <response code="200">Devuelve los datos de la empresa</response>
+             <response code="404">No existe una empresa registrada con ese CIF</response>   
+        </member>
+        <member name="M:TodoApi.Controllers.EmpresasControllerContext.GetEmpresas">
+             <summary>
+             Muestra una lista con todas las empresas
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/empresa
+                 
+             </remarks>
+             <returns>A newly created TodoItem</returns>
+             <response code="200">Devuelve los datos de todas las empresas</response>
+             <response code="404">No hay empresas registradas</response>  
+        </member>
+        <member name="M:TodoApi.Controllers.EmpresasControllerContext.GetEmpresa(System.String)">
+             <summary>
+             Muestra la empresa con el indentificador CIF indicado
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 GET /api/empresa/<paramref name="Cif"/>
+                 {
+                    "CIF": A46103834,
+                 }
+            
+             </remarks>
+             <param name="Cif"></param>
+             <returns>A newly created TodoItem</returns>
+             <response code="200">Devuelve los datos de la empresa</response>
+             <response code="404">No existe una empresa registrada con ese CIF</response>   
+        </member>
+        <member name="M:TodoApi.Controllers.EmpresasControllerContext.PostEmpresa(Empresa)">
+             <summary>
+             Añade una empresa a la base de datos
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 PUT /api/empresaBD/<paramref name="id"/>
+                 {
+                    "NombreSociedad": "MERCADONA SA",
+                    "Cif": "A46103834",
+                    "CoincidenciaPor": "Acrónimo",
+                    "TextoCoincidencia": "MERCADONA",
+                    "Provincia": "VALENCIA",
+                    "NombreFiltrado": "MERCADONA_SA",
+                    "LongitudBarra": 100,
+                    "DatosRegistrales": "Vigente"
+                 }
+            
+             </remarks>
+             <param name="id"></param>
+             <returns>A newly created TodoItem</returns>
+             <response code="201">La empresa se ha añadido correctamente</response>
+             <response code="400">Si no está bien la solicitud</response> 
+        </member>
+    </members>
+</doc>

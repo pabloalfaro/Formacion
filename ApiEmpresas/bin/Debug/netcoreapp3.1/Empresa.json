@@ -1,0 +1,47 @@
+[
+  {
+    "NombreSociedad": "MERCADONA SA",
+    "Cif": "A46103834",
+    "CoincidenciaPor": "Acrónimo",
+    "TextoCoincidencia": "MERCADONA",
+    "Provincia": "VALENCIA",
+    "NombreFiltrado": "MERCADONA_SA",
+    "LongitudBarra": 100,
+    "DatosRegistrales": "Vigente",
+    "ListaNombresCoincidentes": [
+      {
+        "NombreCoincidente": "MERCADONA"
+      }
+    ]
+  },
+  {
+    "NombreSociedad": "MERCADO NATURAL DOS HERMANAS SOCIEDAD LIMITADA",
+    "Cif": "B91632596",
+    "CoincidenciaPor": "Denominación social",
+    "TextoCoincidencia": "MERCADO NATURAL DOS HERMANAS SOCIEDAD LIMITADA",
+    "Provincia": "SEVILLA",
+    "NombreFiltrado": "MERCADO_NATURAL_DOS_HERMANAS_SOCIEDAD_LIMITADA",
+    "LongitudBarra": 68,
+    "DatosRegistrales": "Vigente",
+    "ListaNombresCoincidentes": [
+      {
+        "NombreCoincidente": "MERCADO NATURAL DOS HERMANAS SOCIEDAD LIMITADA"
+      }
+    ]
+  },
+  {
+    "NombreSociedad": "GERMAN VIZCAINO SOCIEDAD LIMITADA",
+    "Cif": "B74249160",
+    "CoincidenciaPor": "Marca",
+    "TextoCoincidencia": "MERCADO NAVIDEÑO XIXON MENAX MERCAU NAVIDIEGU XIXON",
+    "Provincia": "ASTURIAS",
+    "NombreFiltrado": "GERMAN_VIZCAINO_SOCIEDAD_LIMITADA",
+    "LongitudBarra": 35,
+    "DatosRegistrales": "Vigente",
+    "ListaNombresCoincidentes": [
+      {
+        "NombreCoincidente": "MERCADO NAVIDEÑO XIXON MENAX MERCAU NAVIDIEGU XIXON"
+      }
+    ]
+  }
+]
