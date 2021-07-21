@@ -20,7 +20,7 @@ export default class PersonList extends React.Component {
     API.get(`users/${this.state.id}`)
       .then(res => {
         var persona;
-        if (this.state.id == ""){
+        if (this.state.id === ""){
             persona = res.data;
         } else {
             persona = [res.data];
