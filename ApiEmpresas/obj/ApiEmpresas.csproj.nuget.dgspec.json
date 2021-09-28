@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\palfaro\\Desktop\\Formación\\ApiEmpresas\\ApiEmpresas.csproj": {}
+    "C:\\Users\\palfaro\\Documents\\GitHub\\Formacion\\ApiEmpresas\\ApiEmpresas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\palfaro\\Desktop\\Formación\\ApiEmpresas\\ApiEmpresas.csproj": {
+    "C:\\Users\\palfaro\\Documents\\GitHub\\Formacion\\ApiEmpresas\\ApiEmpresas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\palfaro\\Desktop\\Formación\\ApiEmpresas\\ApiEmpresas.csproj",
+        "projectUniqueName": "C:\\Users\\palfaro\\Documents\\GitHub\\Formacion\\ApiEmpresas\\ApiEmpresas.csproj",
         "projectName": "ApiEmpresas",
-        "projectPath": "C:\\Users\\palfaro\\Desktop\\Formación\\ApiEmpresas\\ApiEmpresas.csproj",
+        "projectPath": "C:\\Users\\palfaro\\Documents\\GitHub\\Formacion\\ApiEmpresas\\ApiEmpresas.csproj",
         "packagesPath": "C:\\Users\\palfaro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\palfaro\\Desktop\\Formación\\ApiEmpresas\\obj\\",
+        "outputPath": "C:\\Users\\palfaro\\Documents\\GitHub\\Formacion\\ApiEmpresas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

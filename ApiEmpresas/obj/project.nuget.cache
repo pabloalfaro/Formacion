@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4KABn1khUknYadHfAuFWAat65/y4g2zWgMLKFOLQpl5/vbOkH2gQfQ2IIYgHjnaHb4XRTR0Xp77dNjl6fciAnQ==",
+  "dgSpecHash": "oU5EiMbkPGNZBH6W6jEhWtHFu2Qsd3jDsr97BiabGANjkaN6kUKs9FmCzkyCX8i0uEaOIz4A+o3PinbGDPgzpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\palfaro\\Desktop\\Formación\\ApiEmpresas\\ApiEmpresas.csproj",
+  "projectFilePath": "C:\\Users\\palfaro\\Documents\\GitHub\\Formacion\\ApiEmpresas\\ApiEmpresas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\palfaro\\.nuget\\packages\\entityframework\\5.0.0\\entityframework.5.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
